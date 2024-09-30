@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 200px; /* Ajuste o tamanho conforme desejado */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.link-list a img {
+    width: 20px; /* Ajuste o tamanho do ícone */
+    height: 20px;
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.link-list a:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.link-list a:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 95vh; /* Se necessário, ajuste a altura */
+    }
+}
